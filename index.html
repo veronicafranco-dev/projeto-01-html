@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Verônica Franco - Projeto 01</title>
+
+    <!-- fonte externa -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Portfólio Web Developer | Verônica Franco</h1>
+        <nav>
+            <a href="#aboutme" title="Ir para a seção 'Sobre mim'">Sobre mim</a>
+            <a href="#redes" title="Ir para a seção 'Redes sociais'">Redes sociais</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <img src="imagens/veronica.png" alt="foto da desenvolvedora Verônica Franco">
+            <div id="aboutme">
+                <h2>Sobre mim</h2>
+                <p>Graduanda em Engenharia de Software pela Faculdade Uniamerica, mãe, apaixonada por arqueologia, história e antropologia. Atualmente cursando Desenvolvimento Full-Stack pela EBAC afim de aprimorar meus conhecimentos na área dev! </p>
+                <br>
+                <p>Surpreendentemente descobri a minha paixão pela área de TI ao ganhar uma bolsa para um curso introdutório de programação. Desde então, tenho procurado aprofundar cada vez mais os meus conhecimentos para me tornar uma profissional de excelência.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Contato</h2>
+        </div>
+
+        <div class="contact">
+            <div id="form">
+                <h3>Fale comigo!</h3>                        
+                <form>
+                    <input type="text" id="nome" placeholder="Seu nome" required>
+                    <input type="email" id="email" placeholder="Seu e-mail" required>
+                    <input type="tel" id="phone" placeholder="Seu telefone" required>
+                    <textarea maxlength="1000" name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem (até 1000 caracteres)" required></textarea>
+                    <br>
+                    <button type="submit"> Enviar</button>
+                    <button type="reset"> Limpar</button>
+                </form>                
+            </div>
+
+            <div id="redes">
+                <h3> Acompanhe minhas redes sociais </h3>
+                <a href="https://github.com/veronicafranco-dev">
+                    <img src="imagens/github.png" alt="Ir para perfil no GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/veronicafranco-dev/">
+                    <img src="imagens/linkedin.png" alt="Ir para perfil do Linkedin">
+                </a>
+            </div>
+
+            <div id="addres">
+                <h3>Localização</h3>
+                <address>
+                    Rua da Imaginação, Nº 000 | São Paulo - SP
+                </address>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>
